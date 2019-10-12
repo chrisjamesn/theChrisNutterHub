@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<style>
+body {
+	background-color: #98f5ff;
+}
+div.container{
+background-color: #98f5ff;
+}
+div.container h1{
+text-align: center;
+font-family: Times;
+font-size: 48px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+color: #458b00;
+background-color: #98f5ff;
+}
+div.container button{
+border: 10px solid #458b00;
+border-radius: 12px;
+text-align: center;
+font-family: Times;
+font-size: 48px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+color: #458b00;
+background-color: #98f5ff;
+cursor: pointer;
+}
+div.container2 button{
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+div.container2 p{
+text-align: center;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-decoration: underline;
+text-transform: none; 
+color: #458b00;
+background-color: #98f5ff;
+}
+div.container2 a{
+text-align: center;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-decoration: underline;
+text-transform: none; 
+color: #458b00;
+background-color: #98f5ff;
+}
+div.container3 p{
+   text-align: center;
+   font-family: Times;
+   font-size: 10px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   text-transform: none;
+   color: black;
+   background-color: #98f5ff;
+}
+</style>
+	<meta charset="utf-8">
+	<meta name="The Chris Nutter Hub" content="The Chris Nutter Hub Homepage">
+	<title>The Chris Nutter Hub</title>
+</head>
+<body>
+<div class="container">
+<h1><button onclick="homepage()" title="The Chris Nutter Hub">The Chris Nutter Hub</button></h1>
+</div>
+<div class="container2">
+<p><embed src="http://www.thechrisnutterhub.com/photos/20180426_201451.jpg#toolbar=0&navpanes=0&scrollbar=0" width="816px" height="612px" /></p>
+<p><button onclick="libraryOfCirclaria()">Library of Circlaria</button></p>
+<p><button onclick="certificates()">Certificates</button></p>
+<p><button onclick="photos()">Photo Gallery</button></p>
+<p><button onclick="nutritionFactList()">Nutrition Facts</button></p>
+<br>
+<p><a href="https://www.linkedin.com/in/christopher-j-nutter-a89410a9/">LinkedIn Profile</a></p>
+<p><a href="https://github.com/chrisjamesn">GitHub Profile</a></p>
+<script>
+function homepage(){
+    window.location.href='http://www.thechrisnutterhub.com/index.html';
+};
+function libraryOfCirclaria(){
+window.location.href='http://www.thechrisnutterhub.com/libraryofcirclaria.com/index.php';
+};
+function certificates(){
+window.location.href='http://www.thechrisnutterhub.com/certificates.html';
+};
+function photos(){
+window.location.href='http://www.thechrisnutterhub.com/photos.html';
+};
+function nutritionFactList(){
+    window.location.href='http://www.thechrisnutterhub.com/nutrition_facts/nutrition_fact_list.php';
+};
+</script>
+<div class="container3">
+<p>&copy; Christopher J Nutter, 2019</p>
+</div>
+</body>
+</html>
