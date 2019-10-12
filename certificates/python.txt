@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<style>
+body {
+	background-color: #98f5ff;
+}
+div.container h1{
+text-align: left;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+color: #458b00;
+background-color: #98f5ff;
+}
+div.container button{
+border: 10px solid #458b00;
+border-radius: 12px;
+text-align: left;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+color: #458b00;
+background-color: #98f5ff;
+}
+div.container2 h2{
+text-align: center;
+font-family: Times;
+font-size: 48px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+color: #458b00;
+background-color: #98f5ff;
+}
+div.container2 button{
+border: 10px solid #458b00;
+border-radius: 12px;
+text-align: center;
+font-family: Times;
+font-size: 48px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+color: #458b00;
+background-color: #98f5ff;
+}
+div.container3 p{
+   text-align: center;
+   font-family: Times;
+   font-size: 10px;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+   text-transform: none;
+   color: black;
+   background-color: #98f5ff;
+}
+</style>
+	<meta charset="utf-8">
+	<meta name="Python Certificates" content="The Chris Nutter Hub- Python Certificates">
+	<title>Python Certificates</title>
+</head>
+<body>
+<div class="container">
+<h1><button onclick="certificates()">&#8592;</button></h1>
+<div class="container2">
+<h2><button onclick="python()">Python</button></h2>
+<p><embed src="http://www.thechrisnutterhub.com/certificates/Python/2_PythonforDataScienceEssentialTraining_CertificateOfCompletion.jpeg#toolbar=0&navpanes=0&scrollbar=0" width="600px" height="425px" /></p>
+<p><embed src="http://www.thechrisnutterhub.com/certificates/Python/3_Python3EssentialTraining_CertificateOfCompletion.jpeg#toolbar=0&navpanes=0&scrollbar=0" width="600px" height="425px" /></p>
+<script>
+function certificates(){
+    window.location.href='http://www.thechrisnutterhub.com/certificates.html';
+};
+function python(){
+    window.location.href='http://www.thechrisnutterhub.com/certificates/python.html';
+};
+</script>
+<div class="container3">
+<p>&copy; Christopher J Nutter, 2019</p>
+</div>
+</body>
+</html>
